@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Proximanova";
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-red {
+  background-color: #f44336;
+}
+
+.btn-green {
+  background-color: #4caf50;
+}
+
+.btn-yellow {
+  background-color: #ffeb3b;
+}
